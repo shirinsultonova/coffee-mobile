@@ -336,7 +336,6 @@
   }
   @media only screen and (min-width: 721px){
     .hero__wrapper{
-      /* width: 100%; */
       padding-left: 86px;
       background-image: url(../images/hero-bg.jpg);
       background-repeat: no-repeat;
@@ -353,8 +352,8 @@
     .hero__text{
       font-family: 'Barlow';
       font-weight: 400;
-      font-size: 16px;
-      line-height: 26px;
+      font-size: 15px;
+      line-height: 25px;
       color: #FEFCF7;
       opacity: 0.8;
       text-align: left;
@@ -375,8 +374,8 @@
     .hero__text{
       font-family: 'Barlow';
       font-weight: 400;
-      font-size: 16px;
-      line-height: 26px;
+      font-size: 15px;
+      line-height: 25px;
       color: #FEFCF7;
       opacity: 0.8;
     }
