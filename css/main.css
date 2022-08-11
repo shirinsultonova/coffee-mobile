@@ -118,14 +118,14 @@
   }
   .site-header__link{
     font-family: 'Barlow';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.923077px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #83888F;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #83888F;
   }
   .site-header__link:hover {
     color: var(--main-text-color);
@@ -206,22 +206,27 @@
   }
   .hero__theme{
     margin: 0;
-    font-style: normal;
     margin-bottom: 24px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
     font-weight: 900;
-    font-size: 35px;
-    line-height: 35px;
-    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
     color: #FEFCF7;
   }
   .hero__text{
     margin: 0;
     margin-bottom: 39px;
-    font-family: "";
+
+    font-family: 'Barlow';
+    font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    
     text-align: center;
+    
     color: #FEFCF7;
     mix-blend-mode: normal;
     opacity: 0.8;
