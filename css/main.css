@@ -1,5 +1,3 @@
-
-
 /* VARIABLES */
 @font-face {
   font-family: 'Barlow';
@@ -72,7 +70,6 @@ body{
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #F2F2F2;;
   height: 100%;
   margin: 0;
   padding: 0;  
@@ -748,7 +745,7 @@ padding: 0;
   position: absolute;
   top: 20px;
   right: 0;
-  background-image: url("../images/arrow.svg");
+  background-image: url("../images/arrow\ \(2\).svg");
 background-repeat: no-repeat;
 }
 .radio-group {
@@ -1535,7 +1532,7 @@ margin-bottom: 80px;
     position: relative;
   }
   .nav--active + .menu-btn {
-    background-image: url("../images/close-icon.svg");
+    background-image: url("../images/burger-close-icon.svg");
 
   }
   .nav--active {
@@ -1761,7 +1758,7 @@ margin-bottom: 56px;
     position: relative;
   }
   .nav--active + .menu-btn {
-    background-image: url("../images/close-icon.svg");
+    background-image: url("../images/burger-close-icon.svg");
 
   }
   .quailty-table-img {
@@ -2120,6 +2117,7 @@ margin: 0 auto;
 -webkit-box-pack: center; 
     -ms-flex-pack: center; 
         justify-content: center;
+/* background-size: 375px 72px; */
 background-position: calc(50%) calc(50% - 850px);
 }
 .card-list__item {
@@ -2179,7 +2177,7 @@ margin-bottom: 48px;
 
 .works-innrt {
   max-width: 327px;
-  padding-top: 800px;
+  padding-top: 700px;
 }
 .works-innrt__title {
   text-align: center;
