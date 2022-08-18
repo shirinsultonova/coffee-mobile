@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./css/main.css">
   <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
-<body>
+<body class="site-body">
 
 
 
@@ -253,7 +253,7 @@
                 <strong class="cards-text">“I drink my coffee as <span>Filter</span>, with a <span>Decaf</span> type of bean. <span>250g </span> ground ala <span>Cafetiére</span>, sent to me <span>Every Week</span>.”</strong>
               </div>
               <div class="btn-group button-group">
-                <button type="submit" class="btn-grin " type="button">Create your plan</button>
+                <button type="button" class="btn-grin" type="button">Create your plan</button>
               </div>
             </form>
             </div>
@@ -312,6 +312,39 @@
     </div>
   </footer>
   <!-- SITE FOOTER END -->
+
+
+
+
+  <div class="modal">
+    <div class="modal__window">
+        <div class="modal__top-box">
+            <h2 class="modal__top-text">
+                Order Summary
+            </h2>
+        </div>
+        <div class="modal__bottom-box">
+            <p class="modal__bottom-text">
+                “I drink my coffee as <span class="modal__bottom-colortext">Filter</span> , with a <span class="modal__bottom-colortext">Decaf</span> type of bean. <span class="modal__bottom-colortext">250g</span> ground ala <span class="modal__bottom-colortext">Cafetiére</span>, sent to me <span class="modal__bottom-colortext">Every Week</span>.”
+            </p>
+            <p class="modal__bottom-desc">
+                Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discount codes can also be redeemed at the checkout. 
+            </p>
+
+            <div class="modal__buttons-box">
+                <button class="modal__m-btn js-close-m-btn">
+                    Checkout - $14.00 / mo
+                </button>
+                <span class="modal__cashe">$14.00 / mo</span>
+                <button class="modal__btn js-close-btn">
+                    Checkout
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
   <script src="./js/main.js"></script>
 </body>
 </html>
